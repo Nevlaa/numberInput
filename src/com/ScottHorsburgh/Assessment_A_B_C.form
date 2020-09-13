@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.ScottHorsburgh.Assessment_A_B_C">
+  <grid id="27dc6" binding="rootPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="1880" height="654"/>
+    </constraints>
+    <properties>
+      <alignmentX value="0.5"/>
+      <alignmentY value="0.5"/>
+      <preferredSize width="1112" height="454"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="41c37" binding="mainPanel" layout-manager="GridLayoutManager" row-count="11" column-count="3" same-size-horizontally="true" same-size-vertically="false" hgap="-1" vgap="10">
+        <margin top="20" left="20" bottom="20" right="20"/>
+        <constraints border-constraint="Center"/>
+        <properties>
+          <foreground color="-2763307"/>
+          <opaque value="true"/>
+          <preferredSize width="747" height="379"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="42bd3" class="javax.swing.JLabel" binding="powerOfTwoLbl">
+            <constraints>
+              <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="JetBrains Mono" size="11"/>
+              <foreground color="-11184811"/>
+              <labelFor value="6af9d"/>
+              <text value="All powers of 2 from 2 up to 20 :"/>
+            </properties>
+          </component>
+          <component id="6af9d" class="javax.swing.JTextField" binding="powerOfTwoTF">
+            <constraints>
+              <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <editable value="false"/>
+              <font name="JetBrains Mono"/>
+            </properties>
+          </component>
+          <component id="215f4" class="javax.swing.JLabel" binding="sumOfSquaredLbl">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="JetBrains Mono" size="11"/>
+              <foreground color="-11184811"/>
+              <labelFor value="76123"/>
+              <text value="The sum of all squares between 1 and 100 (inclusive) :"/>
+            </properties>
+          </component>
+          <component id="76123" class="javax.swing.JTextField" binding="sumOfSquaredTF">
+            <constraints>
+              <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <caretColor color="-11447983"/>
+              <editable value="false"/>
+              <font name="JetBrains Mono"/>
+            </properties>
+          </component>
+          <component id="43056" class="javax.swing.JButton" binding="nextBtn">
+            <constraints>
+              <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <actionCommand value="next"/>
+              <borderPainted value="true"/>
+              <contentAreaFilled value="true"/>
+              <focusPainted value="false"/>
+              <font name="JetBrains Mono"/>
+              <foreground color="-11184811"/>
+              <label value="Next"/>
+              <selected value="false"/>
+              <text value="Next"/>
+            </properties>
+          </component>
+          <hspacer id="332e8">
+            <constraints>
+              <grid row="0" column="2" row-span="4" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <component id="ddaf6" class="javax.swing.JLabel" binding="sumOfEvenNumbersLbl">
+            <constraints>
+              <grid row="0" column="0" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="JetBrains Mono" size="11"/>
+              <foreground color="-11184811"/>
+              <labelFor value="9b28e"/>
+              <text value="The sum of all even numbers between 2 and 100 (inclusive) : "/>
+            </properties>
+          </component>
+          <vspacer id="43ed7">
+            <constraints>
+              <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <component id="15625" class="javax.swing.JTextArea" binding="sumSquaredTxt">
+            <constraints>
+              <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <editable value="false"/>
+              <font name="JetBrains Mono" size="10"/>
+              <lineWrap value="true"/>
+              <wrapStyleWord value="true"/>
+            </properties>
+          </component>
+          <component id="f85ed" class="javax.swing.JTextArea" binding="powerOfTxt">
+            <constraints>
+              <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <editable value="false"/>
+              <font name="JetBrains Mono" size="10"/>
+              <lineWrap value="true"/>
+              <wrapStyleWord value="true"/>
+            </properties>
+          </component>
+          <vspacer id="30f30">
+            <constraints>
+              <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <component id="9b28e" class="javax.swing.JTextField" binding="evenNumbersTF">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-4665371"/>
+              <caretColor color="-1644826"/>
+              <disabledTextColor color="-4665371"/>
+              <editable value="false"/>
+              <font name="JetBrains Mono"/>
+              <margin top="2" left="6" bottom="2" right="6"/>
+              <opaque value="true"/>
+            </properties>
+          </component>
+          <component id="d22c2" class="javax.swing.JTextArea" binding="sumEvenTxt">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <autoscrolls value="true"/>
+              <editable value="false"/>
+              <font name="JetBrains Mono" size="10"/>
+              <lineWrap value="true"/>
+              <wrapStyleWord value="true"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <hspacer id="26a1c">
+        <constraints border-constraint="West"/>
+      </hspacer>
+    </children>
+  </grid>
+</form>

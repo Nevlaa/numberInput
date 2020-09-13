@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.ScottHorsburgh.Assessment_E">
+  <grid id="27dc6" binding="rootPanel3" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="629" height="400"/>
+    </constraints>
+    <properties>
+      <preferredSize width="800" height="600"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="4d7a1" binding="mainPanel3" layout-manager="GridLayoutManager" row-count="10" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="20" left="20" bottom="20" right="20"/>
+        <constraints border-constraint="Center"/>
+        <properties>
+          <preferredSize width="600" height="380"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="7a867" class="javax.swing.JLabel" binding="numberToFindOddNumsLbl">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="JetBrains Mono" size="13"/>
+              <foreground color="-11184811"/>
+              <text value="Enter a number to find sum of odd numbers "/>
+            </properties>
+          </component>
+          <component id="ea25f" class="javax.swing.JLabel" binding="exampleForInputLbl">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="JetBrains Mono" size="10" style="2"/>
+              <foreground color="-13158601"/>
+              <text value="For example, if the input is 32677, the sum would be ( 3 + 7 + 7 = 17 )"/>
+            </properties>
+          </component>
+          <component id="68c52" class="javax.swing.JLabel" binding="enterANumberLbl">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="JetBrains Mono" size="11"/>
+              <foreground color="-11184811"/>
+              <text value="Enter a number :"/>
+            </properties>
+          </component>
+          <component id="89a62" class="javax.swing.JTextField" binding="numToFindSumOfOddsTF">
+            <constraints>
+              <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="JetBrains Mono"/>
+            </properties>
+          </component>
+          <component id="19f9d" class="javax.swing.JLabel" binding="oddNumsFromNumberLbl">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="JetBrains Mono" size="11"/>
+              <foreground color="-11184811"/>
+              <text value="Odd Numbers :"/>
+              <visible value="false"/>
+            </properties>
+          </component>
+          <component id="5313b" class="javax.swing.JTextField" binding="oddNumsFromNumberTF">
+            <constraints>
+              <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <editable value="false"/>
+              <font name="JetBrains Mono"/>
+              <visible value="false"/>
+            </properties>
+          </component>
+          <component id="ef4aa" class="javax.swing.JLabel" binding="sumOfOddDigitsLbl">
+            <constraints>
+              <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="JetBrains Mono" size="11"/>
+              <foreground color="-11184811"/>
+              <text value="The sum of all odd digits :"/>
+              <visible value="false"/>
+            </properties>
+          </component>
+          <component id="9d737" class="javax.swing.JTextField" binding="sumOfOddNumDigitsTF">
+            <constraints>
+              <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <editable value="false"/>
+              <font name="JetBrains Mono"/>
+              <visible value="false"/>
+            </properties>
+          </component>
+          <component id="30317" class="javax.swing.JButton" binding="closeBtn">
+            <constraints>
+              <grid row="9" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <defaultCapable value="false"/>
+              <foreground color="-1644826"/>
+              <text value="Close"/>
+            </properties>
+          </component>
+          <component id="c2d91" class="javax.swing.JButton" binding="calculateBtn">
+            <constraints>
+              <grid row="9" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <foreground color="-11184811"/>
+              <text value="Calculate"/>
+            </properties>
+          </component>
+          <component id="2eaa6" class="javax.swing.JButton" binding="clearBtn">
+            <constraints>
+              <grid row="9" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <defaultCapable value="false"/>
+              <foreground color="-11184811"/>
+              <text value="Clear"/>
+            </properties>
+          </component>
+          <component id="1c77d" class="javax.swing.JButton" binding="previousBtn">
+            <constraints>
+              <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <defaultCapable value="false"/>
+              <foreground color="-11184811"/>
+              <text value="Previous"/>
+            </properties>
+          </component>
+          <vspacer id="25781">
+            <constraints>
+              <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="-1" height="0"/>
+              </grid>
+            </constraints>
+          </vspacer>
+          <vspacer id="620bf">
+            <constraints>
+              <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <vspacer id="c54df">
+            <constraints>
+              <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <vspacer id="9728f">
+            <constraints>
+              <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <hspacer id="2a760">
+            <constraints>
+              <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
